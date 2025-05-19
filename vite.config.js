@@ -6,4 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   base: "/skymute-website/",
   plugins: [react(), tailwindcss()],
+  server: {
+    historyApiFallback: true,
+  },
 });
