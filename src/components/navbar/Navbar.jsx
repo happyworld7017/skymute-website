@@ -4,7 +4,7 @@ import { theme } from "../../utils/colors";
 // const icon = "../../assets/icons.svg";
 import { AiOutlineMenu } from "react-icons/ai";
 import { RxCross1 } from "react-icons/rx";
-
+import icon from "../../../public/images/icon.svg";
 const Navbar = () => {
   const headerStyle = {
     backgroundColor: theme?.colors?.primary,
@@ -30,7 +30,7 @@ const Navbar = () => {
         style={navTextStyle}
       >
         <Link to={"/"} className="flex items-center gap-2">
-          <img src="/images/icon.svg" width={45} alt="icon" />
+          <img src={icon} width={45} alt="icon" />
           <span>skymute</span>
         </Link>
 

@@ -1,17 +1,23 @@
-import React from "react";
+import reddit from "../../../public/images/reddit.svg";
+import instagram from "../../../public/images/instagram.svg";
+import tiktok from "../../../public/images/tiktok.svg";
+import x from "../../../public/images/x.svg";
+import facebook from "../../../public/images/facebook.svg";
+import youtube from "../../../public/images/youtube.svg";
+import pinterest from "../../../public/images/pinterest.svg";
 
 const CircularImagesLayout = () => {
   // Example image - replace with your actual images
 
   // You can use different images by replacing these URLs
   const images = {
-    reddit: "/images/reddit.svg",
-    instagram: "/images/instagram.svg",
-    tiktok: "/images/tiktok.svg",
-    x: "/images/x.svg",
-    facebook: "/images/facebook.svg",
-    pinterest: "/images/pinterest.svg",
-    youtube: "/images/youtube.svg",
+    reddit,
+    instagram,
+    tiktok,
+    x,
+    facebook,
+    pinterest,
+    youtube,
   };
 
   return (
