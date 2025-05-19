@@ -1,0 +1,67 @@
+[
+    {
+        "index": 1,
+        "id": "eligibility",
+        "idText": "Eligibility"
+    },
+    {
+        "index": 2,
+        "id": "accountRegistration",
+        "idText": "Account Registration and Security"
+    },
+    {
+        "index": 3,
+        "id": "linkBoxFeature",
+        "idText": "Link Box Feature"
+    },
+    {
+        "index": 4,
+        "id": "intellectualProperty",
+        "idText": "Intellectual Property Rights"
+    },
+    {
+        "index": 5,
+        "id": "userConduct",
+        "idText": "User Conduct"
+    },
+    {
+        "index": 6,
+        "id": "privacyAndData",
+        "idText": "Privacy and Data Protection"
+    },
+    {
+        "index": 7,
+        "id": "limitationOfLiability",
+        "idText": "Limitation of Liability"
+    },
+    {
+        "index": 8,
+        "id": "indemnification",
+        "idText": "Indemnification"
+    },
+    {
+        "index": 9,
+        "id": "termination",
+        "idText": "Termination"
+    },
+    {
+        "index": 10,
+        "id": "changesToTerms",
+        "idText": "Changes to Terms"
+    },
+    {
+        "index": 11,
+        "id": "governingLaw",
+        "idText": "Governing Law and Dispute Resolution"
+    },
+    {
+        "index": 12,
+        "id": "videoSellingFeature",
+        "idText": "Video Selling Feature"
+    },
+    {
+        "index": 13,
+        "id": "contactInformation",
+        "idText": "Contact Information"
+    }
+]

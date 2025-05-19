@@ -1,0 +1,62 @@
+[
+    {
+        "index": 1,
+        "id": "informationWeCollect",
+        "idText": "Information We Collect"
+    },
+    {
+        "index": 2,
+        "id": "howWeUseYourInformation",
+        "idText": "How We Use Your Information"
+    },
+    {
+        "index": 3,
+        "id": "publicContentAndSharing",
+        "idText": "Public Content and Sharing"
+    },
+    {
+        "index": 4,
+        "id": "contentGuidelinesAndModeration",
+        "idText": "Content Guidelines and Moderation"
+    },
+    {
+        "index": 5,
+        "id": "dataSecurity",
+        "idText": "Data Security"
+    },
+    {
+        "index": 6,
+        "id": "thirdPartyServices",
+        "idText": "Third-Party Services"
+    },
+    {
+        "index": 7,
+        "id": "yourRightsAndChoices",
+        "idText": "Your Rights and Choices"
+    },
+    {
+        "index": 8,
+        "id": "childrenPrivacy",
+        "idText": "Children’s Privacy"
+    },
+    {
+        "index": 9,
+        "id": "internationalUsers",
+        "idText": "International Users"
+    },
+    {
+        "index": 10,
+        "id": "policyUpdates",
+        "idText": "Policy Updates"
+    },
+    {
+        "index": 11,
+        "id": "videoSellingFeature",
+        "idText": "Video Selling, Wallet & Payment Information"
+    },
+    {
+        "index": 12,
+        "id": "contactUs",
+        "idText": "Contact Us"
+    }
+]
