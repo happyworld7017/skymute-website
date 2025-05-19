@@ -7,6 +7,7 @@ import Footer from "./components/footer/Footer";
 import About from "./pages/about/About.jsx";
 import PolicyPrivacy from "./pages/policy/PolicyPrivacy";
 import TermsConditions from "./pages/terms/TermsConditions.jsx";
+import { CONSTANTS } from "./utils/canstants.jsx";
 
 const App = () => {
   const bgColor = {
@@ -17,10 +18,16 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/privacy-policy" element={<PolicyPrivacy />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/terms" element={<TermsConditions />} />
+          <Route path={`${CONSTANTS.domain}`} element={<Homepage />} />
+          <Route
+            path={`${CONSTANTS.domain}/privacy-policy`}
+            element={<PolicyPrivacy />}
+          />
+          <Route path={`${CONSTANTS.domain}/about`} element={<About />} />
+          <Route
+            path={`${CONSTANTS.domain}/terms`}
+            element={<TermsConditions />}
+          />
         </Routes>
         <Footer />
       </BrowserRouter>

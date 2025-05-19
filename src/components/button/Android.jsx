@@ -1,5 +1,5 @@
- import { CONSTANTS } from "../../utils/canstants";
-import play from "../../../public/images/play.svg"
+import { CONSTANTS } from "../../utils/canstants";
+import play from "../../../public/images/play.svg";
 const Android = () => {
   return (
     <div className="py-4 md:py-5 mb-2 sm:px-4 bg-blue-400/50 text-white font-semibold text-center rounded-4xl mx-auto  md:w-[280px]  w-[240px]">
