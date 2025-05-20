@@ -30,7 +30,7 @@ const Navbar = () => {
         className="w-full max-w-[1100px] mx-auto flex justify-between  text-2xl font-semibold capitalize px-5 "
         style={navTextStyle}
       >
-        <Link to={`${CONSTANTS.domain}`} className="flex items-center gap-2">
+        <Link to={`/`} className="flex items-center gap-2">
           <img src={icon} width={45} alt="icon" />
           <span>skymute</span>
         </Link>
@@ -43,15 +43,15 @@ const Navbar = () => {
         {
           <ul className=" md:items-center md:gap-20 md:flex hidden">
             <li className="hover:text-blue-600">
-              <Link to={`${CONSTANTS.domain}/about`}>about</Link>
+              <Link to={`/about`}>about</Link>
             </li>
             <li className="hover:text-blue-600">
-              <Link to={`${CONSTANTS.domain}/privacy-policy`}>
+              <Link to={`/privacy-policy`}>
                 Privacy policy
               </Link>
             </li>
             <li className="hover:text-blue-600">
-              <Link to={`${CONSTANTS.domain}/terms`}>T&Cs</Link>
+              <Link to={`/terms`}>T&Cs</Link>
             </li>
           </ul>
         }
@@ -62,15 +62,15 @@ const Navbar = () => {
         {!toggleMenu ? (
           <ul className="bg-slate-900  flex flex-col absolute top-20 border-b text-white border-blue-400  w-full h-[140px] pl-6 py-4 mb-2 gap-3.5 text-xl">
             <li className="hover:text-blue-600">
-              <Link to={`${CONSTANTS.domain}/about`}>about</Link>
+              <Link to={`/about`}>about</Link>
             </li>
             <li className="hover:text-blue-600">
-              <Link to={`${CONSTANTS.domain}/privacy-policy`}>
+              <Link to={`/privacy-policy`}>
                 Privacy policy
               </Link>
             </li>
             <li className="hover:text-blue-600">
-              <Link to={`${CONSTANTS.domain}/terms`}>T&Cs</Link>
+              <Link to={`/terms`}>T&Cs</Link>
             </li>
           </ul>
         ) : (

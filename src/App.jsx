@@ -18,14 +18,14 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path={`${CONSTANTS.domain}`} element={<Homepage />} />
+          <Route path={`/`} element={<Homepage />} />
           <Route
-            path={`${CONSTANTS.domain}/privacy-policy`}
+            path={`/privacy-policy`}
             element={<PolicyPrivacy />}
           />
-          <Route path={`${CONSTANTS.domain}/about`} element={<About />} />
+          <Route path={`/about`} element={<About />} />
           <Route
-            path={`${CONSTANTS.domain}/terms`}
+            path={`/terms`}
             element={<TermsConditions />}
           />
         </Routes>
