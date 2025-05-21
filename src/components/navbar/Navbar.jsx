@@ -41,17 +41,15 @@ const Navbar = () => {
         </button>
 
         {
-          <ul className=" md:items-center md:gap-20 md:flex hidden">
+          <ul className=" md:items-center md:gap-20 md:flex hidden capitalize">
             <li className="hover:text-blue-600">
-              <Link to={`/about`}>about</Link>
+              <Link to={`/about-us`}>about</Link>
             </li>
             <li className="hover:text-blue-600">
-              <Link to={`/privacy-policy`}>
-                Privacy policy
-              </Link>
+              <Link to={`/policy-privacy`}>Privacy policy</Link>
             </li>
             <li className="hover:text-blue-600">
-              <Link to={`/terms`}>T&Cs</Link>
+              <Link to={`/terms-condition`}>T&Cs</Link>
             </li>
           </ul>
         }
@@ -60,17 +58,15 @@ const Navbar = () => {
       </nav>
       <>
         {!toggleMenu ? (
-          <ul className="bg-slate-900  flex flex-col absolute top-20 border-b text-white border-blue-400  w-full h-[140px] pl-6 py-4 mb-2 gap-3.5 text-xl">
+          <ul className="bg-slate-900  flex flex-col absolute top-20 border-b text-white border-blue-400  w-full h-[140px] pl-6 py-4 mb-2 gap-3.5 text-xl capitalize">
             <li className="hover:text-blue-600">
-              <Link to={`/about`}>about</Link>
+              <Link to={`/about-us`}>about</Link>
             </li>
             <li className="hover:text-blue-600">
-              <Link to={`/privacy-policy`}>
-                Privacy policy
-              </Link>
+              <Link to={`/policy-privacy`}>Privacy policy</Link>
             </li>
             <li className="hover:text-blue-600">
-              <Link to={`/terms`}>T&Cs</Link>
+              <Link to={`/terms-condition`}>T&Cs</Link>
             </li>
           </ul>
         ) : (

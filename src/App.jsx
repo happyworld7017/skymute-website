@@ -20,9 +20,9 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path={`/`} element={<Homepage />} />
-          <Route path={`/privacy-policy`} element={<PolicyPrivacy />} />
-          <Route path={`/about`} element={<About />} />
-          <Route path={`/terms`} element={<TermsConditions />} />
+          <Route path={`/policy-privacy`} element={<PolicyPrivacy />} />
+          <Route path={`/about-us`} element={<About />} />
+          <Route path={`/terms-condition`} element={<TermsConditions />} />
 
           <Route path={`*`} element={<PageNotFound />} />
         </Routes>
