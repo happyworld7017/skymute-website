@@ -3,8 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-"homepage": "https://skymute.com",
-"scripts": {
+  "homepage": "https://skymute.com",
+  "scripts": {
     "dev": "vite",
     "build": "vite build --base=./",
     "lint": "eslint .",

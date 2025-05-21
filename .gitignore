@@ -10,7 +10,7 @@ lerna-debug.log*
 .vscode*
 package-lock.json
 node_modules
-dist
+
 dist-ssr
 *.local
 

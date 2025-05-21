@@ -1,4 +1,4 @@
-import {BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import { theme } from "./utils/colors";
 import Card from "./components/card/Card";
@@ -16,7 +16,7 @@ const App = () => {
   };
   return (
     <div className={` w-full h-full`} style={bgColor}>
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <Navbar />
         <Routes>
           <Route path={`/`} element={<Homepage />} />
