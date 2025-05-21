@@ -10,7 +10,7 @@ const PolicyPrivacy = () => {
         {/* all contents */}
         <div className="">
           <h4 className="text-xl font-sans font-bold text-white pt-4">
-           effective date : <span className="">10 april 2025</span>{" "}
+            effective date : <span className="">10 april 2025</span>{" "}
           </h4>
           <div className="pt-5 flex flex-col gap-4 text-blue-50 text-[17px]">
             <span className="">
@@ -21,21 +21,7 @@ const PolicyPrivacy = () => {
               ("SkyMute" or "App").
             </span>
           </div>
-          {/* links */}
-          <div className="py-4">
-            <ul className="gap-4 flex flex-col">
-              {ids.map((id) => {
-                return (
-                  <li className="" key={id.index}>
-                    <span className="pr-4">{id.index}.</span>
-                    <a href={`#${id.id}`} className="underline text-indigo-200">
-                      {id.idText}
-                    </a>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
+
           {/* all texts */}
           <PrivacyPolicy />
         </div>

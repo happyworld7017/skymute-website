@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import { theme } from "./utils/colors";
 import Card from "./components/card/Card";
@@ -15,8 +15,8 @@ const App = () => {
     backgroundColor: theme?.colors?.primary,
   };
   return (
-    <div className={` w-full h-full`} style={bgColor}>
-      <BrowserRouter basename="/">
+    <div className={`w-full min-h-screen h-full`} style={bgColor}>
+      <HashRouter>
         <Navbar />
         <Routes>
           <Route path={`/`} element={<Homepage />} />
@@ -27,7 +27,7 @@ const App = () => {
           <Route path={`*`} element={<PageNotFound />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 };

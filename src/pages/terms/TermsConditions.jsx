@@ -15,21 +15,6 @@ const TermsAndConditions = () => {
         {termsData.introduction}
       </p>
 
-      <div className=" pb-10">
-        <ul className="gap-4 flex flex-col">
-          {ids.map((id) => {
-            return (
-              <li className="" key={id.index}>
-                <span className="pr-4">{id.index}.</span>
-                <a href={`#${id.id}`} className="underline text-indigo-200">
-                  {id.idText}
-                </a>
-              </li>
-            );
-          })}
-        </ul>
-      </div>
-
       {termsData.sections.map((section) => (
         <div key={section.id} className="mb-12 border-b border-gray-700 pb-8">
           <h2 className="text-2xl font-bold text-white mb-4" id={section.id}>
