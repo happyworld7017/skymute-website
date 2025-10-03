@@ -7,6 +7,7 @@ const Homepage = () => {
   const [problem, setProblem] = useState(true);
   return (
     <div className="w-full h-full min-h-screen py-5">
+      <h1 className="text-white">just test</h1>
       <Android />
       {problem ? (
         <Card
