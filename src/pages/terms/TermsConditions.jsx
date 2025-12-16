@@ -3,7 +3,10 @@ import termsData from "../../json/terms.json"; // Make sure this JSON file has t
 import ids from "../../json/idsTerms.json";
 const TermsAndConditions = () => {
   return (
-    <div className="max-w-[1100px] mx-auto py-10 px-4 text-gray-200">
+    <div className="max-w-[1100px] mx-auto pt-5 px-4 text-gray-200">
+      <h1 className="md:text-[30px] text-[60px] font-bold text-blue-400 capitalize">
+        Skymute technology private limited
+      </h1>
       <h1 className="md:text-[80px] text-[60px] font-extrabold text-white capitalize">
         {termsData.title}
       </h1>
