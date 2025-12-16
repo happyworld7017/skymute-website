@@ -164,8 +164,7 @@
                 "Refunds are not provided for subscription purchases made using wallet balance.",
                 "Users are responsible for checking all payment details before recharging their wallet.",
                 "By recharging the wallet, the user agrees to this no-refund policy."
-            ],
-            "consequences": "Violation or misuse of the wallet or subscription system may result in restriction of access to Paid LinkBox features or account-level actions as per platform policies."
+            ]
         },
         {
             "id": "contactUs",
