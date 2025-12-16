@@ -57,6 +57,38 @@ const TermsAndConditions = () => {
               </div>
             ))}
 
+          {/* Features rendering */}
+          {section.features && (
+            <div className="mt-4">
+              <h3 className="text-lg font-semibold text-white mb-2">
+                Features
+              </h3>
+              <ul className="list-disc list-inside space-y-2 text-gray-300">
+                {section.features.map((feature, index) => (
+                  <li key={index}>{feature}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {/* Important Notes rendering */}
+          {section.importantNotes && (
+            <div className="mt-6 ">
+              <h3 className="text-lg font-semibold text-red-50 mb-2">
+                Refund Policy and Important Notes
+              </h3>
+              <ul className="list-disc list-inside space-y-2 text-gray-300">
+                {section.importantNotes.map((note, index) => (
+                  <li key={index}>{note}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {/* Consequences rendering */}
+          {section.consequences && (
+            <p className="mt-6 text-gray-400 italic">{section.consequences}</p>
+          )}
+
           {/* Contact Information */}
           {section.email && (
             <p className="mt-4 text-gray-300">

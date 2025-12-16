@@ -153,18 +153,25 @@
             ]
         },
         {
-            "id": "videoSellingFeature",
-            "title": "Video Selling Feature",
-            "points": [
-                "Sellers must be at least 18 years old and have full rights to the content.",
-                "Sexual or adult content is strictly prohibited in this feature.",
-                "Content must be legal and accurate and comply with SkyMute policies.",
-                "Buyers must use purchased content for personal, non-commercial purposes.",
-                "SkyMute may charge fees on sales; refunds follow platform policy.",
-                "SkyMute may remove content and suspend accounts for violations.",
-                "SkyMute is not responsible for user disputes.",
-                "Sellers and buyers indemnify SkyMute against any claims arising from their actions."
-            ]
+            "id": "paid-linkbox-details",
+            "title": "Paid LinkBox Details",
+            "description": "Paid LinkBox lets users make their link box paid. Users can charge people to access their links using a weekly subscription.",
+            "features": [
+                "Users can set the price of their LinkBox from ₹20 to ₹20,000.",
+                "To buy a subscription, customers must add money to their wallet first.",
+                "Wallet recharge amounts are from ₹20 to ₹10,000.",
+                "The wallet balance is used to pay for the subscription."
+            ],
+            "importantNotes": [
+                "Once a user recharges their wallet, the added amount cannot be refunded.",
+                "Wallet balance is non-transferable and cannot be withdrawn as cash.",
+                "Refunds are not provided for accidental or incorrect wallet recharges.",
+                "Refunds are not provided for unused wallet balance.",
+                "Refunds are not provided for subscription purchases made using wallet balance.",
+                "Users are responsible for checking all payment details before recharging their wallet.",
+                "By recharging the wallet, the user agrees to this no-refund policy."
+            ],
+            "consequences": "Violation or misuse of the wallet or subscription system may result in restriction of access to Paid LinkBox features or account-level actions as per platform policies."
         },
         {
             "id": "contactInformation",
