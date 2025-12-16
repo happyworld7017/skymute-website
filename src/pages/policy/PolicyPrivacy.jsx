@@ -3,6 +3,10 @@ import PrivacyPolicy from "./V2";
 const PolicyPrivacy = () => {
   return (
     <section className="min-h-screen h-full  max-w-[1100px] mx-auto pt-5 text-white px-7">
+      <h1 className="md:text-[30px] text-[60px] font-bold text-blue-400 capitalize">
+        Skymute technology private limited
+      </h1>
+
       <h2 className="md:text-[80px] text-[60px] font-extrabold text-white capitalize">
         privacy policy
       </h2>

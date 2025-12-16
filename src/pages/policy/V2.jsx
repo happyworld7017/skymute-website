@@ -4,10 +4,6 @@ import privacyPolicy from "../../json/privacy.json";
 const PrivacyPolicy = () => {
   return (
     <div className="max-w-[1100px] mx-auto py-8 ">
-
-
-
-
       {privacyPolicy.sections.map((section) => (
         <div key={section.id} className="mb-10 border-b border-gray-700 pb-8">
           <h2 className="text-3xl font-bold mb-4 text-gray-100" id={section.id}>
@@ -276,7 +272,7 @@ const PrivacyPolicy = () => {
           {section.importantNotes && (
             <div className="mb-6">
               <h3 className="text-xl font-semibold text-gray-100 mb-2">
-                Important Notes
+                Refund Policy and Important Notes
               </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-1">
                 {section.importantNotes.map((note, idx) => (

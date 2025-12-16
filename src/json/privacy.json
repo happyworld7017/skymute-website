@@ -147,19 +147,25 @@
             "description": "We may update this Privacy Policy. Major changes will be communicated via in-app notice. Continued use means acceptance of the updated terms."
         },
         {
-            "id": "videoSellingFeature",
-            "title": "Video Selling, Wallet & Payment Information",
+            "id": "paid-linkbox-details",
+            "title": "Paid LinkBox Details",
+            "description": "Paid LinkBox lets users make their link box paid. Users can charge people to access their links using a weekly subscription.",
             "features": [
-                "Recharge using secure payment methods",
-                "Use balance to buy videos, courses, or products"
+                "Users can set the price of their LinkBox from ₹20 to ₹20,000.",
+                "To buy a subscription, customers must add money to their wallet first.",
+                "Wallet recharge amounts are from ₹20 to ₹10,000.",
+                "The wallet balance is used to pay for the subscription."
             ],
             "importantNotes": [
-                "Payments are processed by trusted third parties",
-                "SkyMute does not store full payment info",
-                "Sales and transaction history are kept confidential",
-                "Users must not upload or sell illegal or banned content"
+                "Once a user recharges their wallet, the added amount cannot be refunded.",
+                "Wallet balance is non-transferable and cannot be withdrawn as cash.",
+                "Refunds are not provided for accidental or incorrect wallet recharges.",
+                "Refunds are not provided for unused wallet balance.",
+                "Refunds are not provided for subscription purchases made using wallet balance.",
+                "Users are responsible for checking all payment details before recharging their wallet.",
+                "By recharging the wallet, the user agrees to this no-refund policy."
             ],
-            "consequences": "Violations will result in immediate content removal and possible account bans. SkyMute is not responsible for user-generated content and complies with applicable laws for takedown and reporting."
+            "consequences": "Violation or misuse of the wallet or subscription system may result in restriction of access to Paid LinkBox features or account-level actions as per platform policies."
         },
         {
             "id": "contactUs",

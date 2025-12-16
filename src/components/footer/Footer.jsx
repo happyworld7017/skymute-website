@@ -7,7 +7,7 @@ const Footer = () => {
           &copy; 2025 skymute technology pvt ltd
         </p>
         <p className="text-xl text-center text-slate-400  sm:max-w-[50%] mx-auto pt-4">
-          Registered Address: C/o SH Baljor Shekhpur, Pol
+          Registered Address:                                C/o SH Baljor Shekhpur, Pol
           17/125, Khekra, Baraut Bagpat, Uttar Pradesh 250101 India
         </p>
       </footer>
