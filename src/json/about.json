@@ -1,39 +1,34 @@
 {
-    "intro": "Hey folks 👋",
+    "intro": "hey folks...",
     "problem": {
-        "title": "🤷‍♂️ The struggle is real when it comes to promoting your link.",
-        "description": "Ever tried promoting your link across platforms? Exclusive video (yeah, that one), product drop, online course, merch, podcast, or your viral TikTok? You post it everywhere — captions, comments, bios, replies — and then...",
+        "title": "Why Skymute Exists",
+        "description": "Skymute is a simple and powerful link-organizing platform designed to help creators, businesses, and individuals manage all their important links in one place.",
         "platform_response": [
-            "🚫 Platforms be like:",
-            "“We don’t allow external links with content. Nice try, buddy.” 😒",
-            "“Sharing a link? In this economy? Get outta here.” 😂"
+            "In today’s digital world, people use multiple platforms—social media, websites, stores, videos, and more.",
+            "Managing and sharing multiple links across these platforms can quickly become cluttered and unorganized."
         ],
-        "consequence": "💥 BAM — banned, blocked, or sent to the digital underworld for \"spamming.\" You literally got blocked for sharing your links."
+        "consequence": "Skymute solves this by giving you a single, clean, and professional way to share everything."
     },
     "solution": {
-        "title": "🛟 Enter: SkyMute to the Rescue",
-        "description": "Got a link you wanna share — Reddit, Insta, Twitter, wherever — and tired of being treated like a spam bot?",
+        "title": "What Skymute Does",
+        "description": "Skymute makes it easy to organize all your links into a single, shareable page. With just one link, your audience can access everything you want to share.",
         "steps": [
             {
-                "step": "🔹 Step 1: Drop It",
-                "detail": "We give you an open box. Drop your damn link in. No questions. No judging."
+                "step": "Simple Organization",
+                "detail": "Bring all your important links together in one place without clutter."
             },
             {
-                "step": "🔹 Step 2: Get Your Code",
-                "detail": "We hand you a short, powerful 3-digit code. It’s tiny. It’s mighty."
+                "step": "Professional Presence",
+                "detail": "Whether you’re a content creator, influencer, freelancer, business owner, or community builder, Skymute helps you stay organized and look professional online."
             },
             {
-                "step": "🔹 Step 3: SPAM THAT CODE",
-                "detail": "Put that code everywhere: Comments. DMs. Stories. Tweets. Bios. Descriptions. Subreddits. Your WhatsApp group, your dog’s collar, your neighbor’s fridge — go nuts. 😂"
-            },
-            {
-                "step": "🔹 Step 4: Just Say “Search It on SkyMute”",
-                "detail": "Tell people to go to SkyMute and search your 3-digit code. They do. They find your link. BOOM 💥 — Instant access. No BS."
+                "step": "Flexible Features",
+                "detail": "Users can customize their link pages, add social profiles, promote content, and even offer premium or paid access when needed."
             }
         ]
     },
     "benefits": {
-        "title": "🚫 No Bans. No Blocks. No “Oops.”",
-        "description": "No passive-aggressive “This violates our guidelines.” Just your content. Your link. And a tiny code that does all the heavy lifting."
+        "title": "Our Belief",
+        "description": "We focus on simplicity, speed, and flexibility. At Skymute, we believe one link should be enough."
     }
 }

@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="mx-auto max-w-[1100px] py-6 px-4 text-white space-y-10">
       <h2 className="md:text-[80px] text-[60px] font-extrabold text-white capitalize">
-        about
+        about us
       </h2>
       {/* Intro */}
       <h1 className="text-4xl font-bold">{introData.intro}</h1>
@@ -43,7 +43,7 @@ const About = () => {
         <p className="text-gray-300">{introData.benefits.description}</p>
       </div>
 
- 
+
     </div>
   );
 };
